@@ -26,6 +26,7 @@ In the provided code, preprocessing is primarily focused on enhancing the finger
 
 - Thresholding the image to create a binary representation, separating ridges from background noise.
 - Applying morphological operations (closing) to further enhance ridge structures and remove small noise artifacts.
+- ![Preprocessed Image ](https://github.com/Purvesh77/Finger-Print-Analysis/blob/main/filtered_fingerprint2.jpeg)
 
 ### Feature Extraction:
 
