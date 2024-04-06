@@ -66,7 +66,7 @@ The code does not include explicit performance evaluation. Performance evaluatio
 ## Results And Discussion:
 
 Minutiae Extraction: 
-![Minutiae Extraction]([https://github.com/Purvesh77/Finger-Print-Analysis/blob/main/Output/Ridge%20Curvature.png](https://github.com/Purvesh77/Finger-Print-Analysis/blob/main/Output/Minutiae%20Extraction.png))
+![Minutiae Extraction](https://github.com/Purvesh77/Finger-Print-Analysis/blob/main/Output/Minutiae%20Extraction.png)
 
 ## Conclusion and Future Scope
 
