@@ -26,7 +26,7 @@ In the provided code, preprocessing is primarily focused on enhancing the finger
 
 - Thresholding the image to create a binary representation, separating ridges from background noise.
 - Applying morphological operations (closing) to further enhance ridge structures and remove small noise artifacts.
-![Preprocessed Image ](https://github.com/Purvesh77/Finger-Print-Analysis/blob/main/filtered_fingerprint2.jpeg)
+- ![Preprocessed Image ](https://github.com/Purvesh77/Finger-Print-Analysis/blob/main/filtered_fingerprint2.jpeg)
 
 ### Feature Extraction:
 
@@ -36,17 +36,23 @@ In the provided code, preprocessing is primarily focused on enhancing the finger
 - **Calculation:** It is often computed using Fourier analysis, breaking down the fingerprint image into frequency components.
 - **Purpose:** Helps quantify the closeness of ridges, which varies across different fingerprint regions.
 
+![Ridge Frequency](https://github.com/Purvesh77/Finger-Print-Analysis/blob/main/Output/Ridge%20Frequency.png)
+
 #### Ridge Flow:
 
 - **Definition:** Ridge flow describes the predominant direction or orientation of ridges in a fingerprint.
 - **Analysis:** It reveals the overall flow or alignment of ridges, essential for understanding fingerprint structure.
 - **Variation:** Ridge flow can vary across different areas of the fingerprint.
 
+![Ridge Flow](https://github.com/Purvesh77/Finger-Print-Analysis/blob/main/Output/Ridge%20Flow.png)
+
 #### Ridge Curvature:
 
 - **Definition:** Ridge curvature measures the degree of bending or curvature present in fingerprint ridges.
 - **Significance:** Provides insights into local ridge shape and contour, aiding in unique pattern identification.
 - **Application:** Useful for distinguishing between different fingerprint patterns based on their curvature characteristics.
+
+![Ridge Curvature](https://github.com/Purvesh77/Finger-Print-Analysis/blob/main/Output/Ridge%20Curvature.png)
 
 ### Matching:
 
@@ -58,7 +64,9 @@ The code does not include explicit performance evaluation. Performance evaluatio
 
 ## Results And Discussion:
 
-Minutiae Extraction: [Provide details about minutiae extraction results and discussion here]
+Minutiae Extraction: 
+
+![Minutiae Extraction](https://github.com/Purvesh77/Finger-Print-Analysis/blob/main/Output/Minutiae%20Extraction.png)
 
 ## Conclusion and Future Scope
 
